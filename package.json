@@ -6,7 +6,8 @@
     "dev": "next dev -p 9999",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "pnpm prettier -w ."
   },
   "dependencies": {
     "@types/node": "20.4.5",
